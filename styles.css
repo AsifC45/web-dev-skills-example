@@ -1,0 +1,60 @@
+/* Style Sheet for Web Development Skills Page */
+
+/* Page Styles */
+html {
+    background: url(images/sun-background.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+div {
+    border-radius: 45px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px 75px;
+    background-color: whitesmoke;
+}
+
+/* Text Styles */
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    color: brown;
+    }
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 5px 5px darkred;
+}
+h2 {
+    font-variant: small-caps;
+    }
+p, ul {
+       font-family: 'PT Sans', sans-serif;
+       font-size: 18px;
+       letter-spacing: 0.5px;
+    }
+span {
+    font-family: Papyrus;
+     }  
+.tutorial {
+            font-size: 14px;
+        }
+
+/* LINK STYLES */
+a {
+    color: hotpink;
+    text-decoration: none;
+    }
+a:hover {
+        text-decoration: underline;
+        }
+p:hover {
+        color: red;
+    }
+h1:hover {
+        color: green
+    }
+h2:hover {
+        color: maroon;
+         }
